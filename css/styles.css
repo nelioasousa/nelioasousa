@@ -1,0 +1,58 @@
+html {
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 95vh;
+}
+
+a:link {
+  color: lightgreen;
+}
+
+a:visited {
+  color: mediumslateblue;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  margin: 1.5em 0 1.5em;
+}
+
+nav ul {
+  margin: 0;
+  list-style: square;
+  font-size: 1.2rem;
+}
+
+header {
+  width: max-content;
+}
+
+header ul {
+  margin: 2px 0 0;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+header ul li {
+  float: left;
+  margin: 0;
+  width: 33.3%;
+  text-align: center;
+}
+
+footer {
+  margin: 2em 0 2em;
+  font-size: 0.8rem;
+  text-align: center;
+}

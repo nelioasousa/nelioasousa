@@ -1,0 +1,35 @@
+/* Adapeted from: https://github.com/mdn/learning-area/tree/main/html/tables/basic */
+
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  border: 2px solid rgb(200,200,200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: inherit;
+}
+
+td {
+  text-align: left;
+}
+
+tr:nth-child(even) td {
+  background-color: inherit;
+}
+
+tr:nth-child(odd) td {
+  background-color: inherit;
+}
+
+caption {
+  font-weight: bold;
+  padding: 10px;
+}
